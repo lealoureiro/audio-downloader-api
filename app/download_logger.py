@@ -1,9 +1,14 @@
+import logging
+
+logger = logging.getLogger("uvicorn.error")
+
 class DownloadLogger(object):
+
     def debug(self, msg):
-        print('DEBUG: ' + msg)
+        logger.debug(msg)
 
     def warning(self, msg):
-        print('WARNING: ' + msg)
+        logger.warning(msg)
 
     def error(self, msg):
-        print('ERROR: ' + msg)
+        logger.warning(msg)
