@@ -60,4 +60,4 @@ async def download_video(request: AudioDownloadRequest, response: Response):
 
     shutil.move('temp_audio/{}.ogg'.format(temp_id), '{0}/{1}/{2}/{1} - {3}.ogg'.format(library_dir, request.artist, request.album, request.title))
 
-    return {'status': 'OK', 'message': 'Audio downloaded and extracted.'}
+    return {'message': 'Audio downloaded and extracted.'}
