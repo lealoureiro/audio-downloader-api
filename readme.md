@@ -16,14 +16,12 @@ This is just a simple API where you can submit an API request with URL from a we
 ```
 
 The application will download the audio stream of the video avaible in the url **https://www.youtube.com/watch?v=LyCEN_zTE54**. 
-
 The output will be an audio file encoded in **Ogg Vorbis** with maximum quality available using the [FFmpeg](https://www.ffmpeg.org/) utility.
-
 The result file will be located in the specified Library Directory in the following format:
 
 `<LibraryDir>/<Artist>/<Album>/<Artist> - <Title>.ogg`
 
-In the case of the previous request:
+In the case of the previous request:<br/>
 `<LibraryDir>/Purple Disco Machine/Sets/Purple Disco Machine - Special Mix 2021. Bests Songs & Remixes.ogg`
 
 <br/>
