@@ -49,3 +49,6 @@ Please replace **\<YourMusicFolder\>** with your actual music Library folder or 
 docker run --rm --name audio-downloader -p 80:80 -v <YourMusicFolder>:/music lealoureiro/audio-downloader-api
 ```
 Please replace **\<YourMusicFolder\>** with your actual music Library folder or wherever you want to save the output music files.
+
+<br/>
+Feel free to give feedback, make suggestions or even contribute with code :).
