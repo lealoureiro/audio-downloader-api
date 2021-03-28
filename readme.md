@@ -38,7 +38,7 @@ The streaming services supported are the ones that are supported by the python a
 ## Running the application in shell:
 ```bash
 git clone https://github.com/lealoureiro/mortgage-calculator-api.git
-cd app
+cd mortgage-calculator-api/app
 pip3 install -r requirements.txt
 LIBRARY_DIR=<YourMusicFolder> python3 main.py
 ```
