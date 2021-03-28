@@ -2,14 +2,9 @@
 
 ### REST API to download audio stream from content available in well know streaming services like Youtube, Soundcloud etc.
 
-<br />
-
 This is just a simple API where you can submit an API request with URL from a well know streaming service alongside some data regarding the author and music stream from the video will be saved as file in location of your preference.
 
-<br/> 
-
 ### Example request:
-
 `URI: POST /api`
 ```json
 {
