@@ -13,5 +13,7 @@ COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 COPY ./app /app
+RUN mkdir temp_audio
+RUN chmod 777 temp_audio
 
 VOLUME ["/music"]
