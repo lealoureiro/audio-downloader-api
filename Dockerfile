@@ -15,7 +15,7 @@ RUN pip3 install -r requirements.txt
 COPY ./app /app
 RUN mkdir temp_audio
 RUN chmod 777 temp_audio
-RUN mkdir -p ~/.cache
-RUN chmod 777 ~/.cache
+RUN mkdir -p /.cache
+RUN chmod 777 /.cache
 
 VOLUME ["/music"]
